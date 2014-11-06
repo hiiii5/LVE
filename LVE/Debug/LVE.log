@@ -1,0 +1,27 @@
+﻿Build started 11/3/2014 19:13:23.
+     1>Project "c:\Users\dr.wayne\documents\visual studio 2013\Projects\LVE\LVE\LVE.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\SFML\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp Engine.cpp main.cpp
+         Camera.cpp
+         Generating Code...
+         Compiling...
+         Engine.cpp
+         Generating Code...
+         Compiling...
+         main.cpp
+     1>c:\users\dr.wayne\documents\visual studio 2013\projects\lve\lve\main.cpp(6): warning C4305: 'argument' : truncation from 'int' to 'sf::Uint8'
+     1>c:\users\dr.wayne\documents\visual studio 2013\projects\lve\lve\main.cpp(6): warning C4309: 'argument' : truncation of constant value
+     1>c:\users\dr.wayne\documents\visual studio 2013\projects\lve\lve\main.cpp(10): warning C4101: 'e' : unreferenced local variable
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\Users\dr.wayne\documents\visual studio 2013\Projects\LVE\Debug\LVE.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\SFML\lib "sfml-audio-d.lib" "sfml-graphics-d.lib" "sfml-network-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\Users\dr.wayne\documents\visual studio 2013\Projects\LVE\Debug\LVE.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\Users\dr.wayne\documents\visual studio 2013\Projects\LVE\Debug\LVE.lib" /MACHINE:X86 Debug\Camera.obj
+         Debug\Engine.obj
+         Debug\ImageManager.obj
+         Debug\main.obj
+         Debug\Tile.obj
+         LVE.vcxproj -> c:\Users\dr.wayne\documents\visual studio 2013\Projects\LVE\Debug\LVE.exe
+     1>Done Building Project "c:\Users\dr.wayne\documents\visual studio 2013\Projects\LVE\LVE\LVE.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.14
